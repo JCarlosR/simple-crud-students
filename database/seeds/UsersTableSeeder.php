@@ -12,14 +12,14 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        //Admin
+        // Admin
         User::create([
-            'name' => 'administrador',
+            'name' => 'Administrador',
             'email' => 'admin@gmail.com',
             'password' => bcrypt('admin'),
-            'control_number' => '2041',
-            'matter' => 'programación',
-            'classroom' => 'A5',
+            'control_number' => '123456789',
+            'matter' => '',
+            'classroom' => '',
             'start_time' => null,
             'end_time' => null,
             'image' => null
